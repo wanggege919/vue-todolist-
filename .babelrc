@@ -1,0 +1,11 @@
+//babel转义器
+//1.语法转义器。主要对javascript最新的语法糖进行编译，并不负责转译javascript
+//新增的api和全局对象。例如let/const就可以被编译，而includes/Object.assign等并不能被编译。
+{
+    "presets": [
+        "env"
+    ],
+    "plugins": [
+        "transform-vue-jsx"
+    ]
+}
